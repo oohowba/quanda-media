@@ -20,3 +20,28 @@ main section {
   border-top: 1px solid #ccc;
   padding-top: 1rem;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.gallery-img {
+  width: calc(50% - 0.5rem);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.activity-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+.activity-card img.thumb {
+  width: 180px;
+  height: auto;
+  border-radius: 6px;
+}
